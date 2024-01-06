@@ -1,13 +1,14 @@
 .container {
+  min-width: 280px;
   display: flex;
   flex-flow: column nowrap;
   gap: 0.5rem;
   .photo {
     img {
-      width: 300px;
-      height: 200px;
+      aspect-ratio: 3 / 2;
+      width: 100%;
+      height: auto;
       object-fit: cover;
-      border-radius: 1.5rem;
     }
   }
   .content {

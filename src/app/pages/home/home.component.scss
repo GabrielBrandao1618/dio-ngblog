@@ -1,0 +1,20 @@
+.posts {
+  padding: {
+    left: 1rem;
+    right: 1rem;
+    top: 3rem;
+    bottom: 3rem;
+  }
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  .main {
+    flex: 1;
+  }
+  .others {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+}

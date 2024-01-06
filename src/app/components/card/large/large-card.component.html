@@ -1,9 +1,9 @@
 <div class="container">
   <div class="photo">
-    <img src="https://via.placeholder.com/600/e01d41" alt="A image" />
+    <img [src]="post?.photo" alt="A image" />
   </div>
   <div class="content">
-    <h2>Title here</h2>
-    <p>Description here</p>
+    <h2>{{ post?.title }}</h2>
+    <p>{{ post?.description }}</p>
   </div>
 </div>

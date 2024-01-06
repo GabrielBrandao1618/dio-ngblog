@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { BlogPost } from '../../../model/blog-post';
 
 @Component({
   selector: 'card-lg',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   standalone: true,
   styleUrls: ['./large-card.component.scss'],
 })
-export class LargeCardComponent {}
+export class LargeCardComponent {
+  @Input() post?: BlogPost;
+}

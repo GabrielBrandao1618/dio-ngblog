@@ -1,11 +1,12 @@
 <menu-title></menu-title>
 <div class="posts">
   <div class="main">
-    <card-lg></card-lg>
+    <card-lg [post]="posts[0]"></card-lg>
   </div>
   <div class="others">
-    <card-sm></card-sm>
-    <card-sm></card-sm>
-    <card-sm></card-sm>
+    <card-sm
+      *ngFor="let blogPost of posts.slice(1, 4)"
+      [post]="blogPost"
+    ></card-sm>
   </div>
 </div>

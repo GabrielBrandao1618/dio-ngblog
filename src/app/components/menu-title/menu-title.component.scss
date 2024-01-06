@@ -1,0 +1,11 @@
+.container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}

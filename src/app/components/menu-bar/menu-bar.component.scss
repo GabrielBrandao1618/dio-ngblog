@@ -1,0 +1,19 @@
+.container {
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+
+      li {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: white;
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

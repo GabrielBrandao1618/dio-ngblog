@@ -6,6 +6,8 @@ import { getPostById } from '../../data/posts';
 @Component({
   templateUrl: './post.component.html',
   selector: 'post-page',
+  standalone: true,
+  styleUrls: ['post.component.scss'],
 })
 export class PostComponent implements OnInit {
   postData?: BlogPost;

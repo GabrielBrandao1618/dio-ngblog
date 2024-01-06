@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  }
+  img {
+    aspect-ratio: 21 / 9;
+    height: auto;
+    object-fit: cover;
+  }
+  h1 {
+    color: white;
+    font-size: 3rem;
+    margin: {
+      bottom: 0.5rem;
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}

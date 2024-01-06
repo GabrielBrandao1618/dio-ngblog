@@ -14,3 +14,6 @@ export const posts: BlogPost[] = [
     title: 'Second post!',
   },
 ];
+export function getPostById(id: number): BlogPost | null {
+  return posts.find((post) => post.id === id) ?? null;
+}
